@@ -541,7 +541,7 @@ namespace TechnocracyProject
 
         public void DisplayTravelerInfo(Adama gameTraveler)
         {
-            DisplayGamePlayScreen($"Vital Information for {gameTraveler.Name}", Text.InitializeMissionEchoTravelerInfo(_gameTraveler), ActionMenu.MainMenu, "");
+            DisplayGamePlayScreen($"Vital Information for {gameTraveler.Name}", Text.InitializeMissionEchoTravelerInfo(_gameTraveler), ActionMenu.TravelerMenu, "");
             //GetContinueKey();
         }
 
@@ -778,7 +778,7 @@ namespace TechnocracyProject
 
         public void DisplayInventory()
         {
-            DisplayGamePlayScreen("Current Inventory", Text.CurrentInventory(_gameTraveler.Inventory), ActionMenu.MainMenu, "");
+            DisplayGamePlayScreen("Current Inventory", Text.CurrentInventory(_gameTraveler.Inventory), ActionMenu.TravelerMenu, "");
         }
 
         public void DisplayListOfSpaceTimeLocations()

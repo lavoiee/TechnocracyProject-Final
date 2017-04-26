@@ -61,6 +61,7 @@ namespace TechnocracyProject
             //
             _sar.Inventory.Add(_gameUniverse.GetGameObjectById(8) as TravelerObject);
             _sar.Inventory.Add(_gameUniverse.GetGameObjectById(9) as TravelerObject);
+            _sar.Inventory.Add(_gameUniverse.GetGameObjectById(10) as TravelerObject);
 
             Console.CursorVisible = false;
         }
