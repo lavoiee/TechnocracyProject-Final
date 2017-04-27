@@ -56,7 +56,7 @@ namespace TechnocracyProject
         private int _experiencePoints;
         private int _health;
         private int _lives;
-        protected int _spaceTimeLocationId;
+        protected int _spaceTimeLocationID;
         private List<int> _spaceTimeLocationsVisited;
         private List<TravelerObject> _inventory;
 
@@ -138,8 +138,8 @@ namespace TechnocracyProject
 
         public int SpaceTimeLocationID
         {
-            get { return _spaceTimeLocationId; }
-            set { _spaceTimeLocationId = value; }
+            get { return _spaceTimeLocationID; }
+            set { _spaceTimeLocationID = value; }
         }
 
         public List<TravelerObject> Inventory
