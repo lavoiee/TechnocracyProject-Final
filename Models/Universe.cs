@@ -302,7 +302,7 @@ namespace TechnocracyProject
         
             foreach (GameObject gameObject in _gameObjects)
             {
-                if (gameObject.SpaceTimeLocationId == currentSpaceTimeLocation)
+                if (gameObject.SpaceTimeLocationID == currentSpaceTimeLocation)
                 {
                     gameObjectIds.Add(gameObject.Id);
                 }
@@ -355,7 +355,7 @@ namespace TechnocracyProject
             //
             foreach (GameObject gameObject in _gameObjects)
             {
-                if (gameObject.SpaceTimeLocationId == spaceTimeLocationId)
+                if (gameObject.SpaceTimeLocationID == spaceTimeLocationId)
                 {
                     gameObjects.Add(gameObject);
                 }
@@ -373,7 +373,7 @@ namespace TechnocracyProject
             //
             foreach (GameObject gameObject in _gameObjects)
             {
-                if (gameObject.SpaceTimeLocationId == spaceTimeLocationId)
+                if (gameObject.SpaceTimeLocationID == spaceTimeLocationId)
                 {
                     gameObjects.Add(gameObject);
                 }
@@ -395,7 +395,7 @@ namespace TechnocracyProject
             //
             foreach (GameObject gameObject in _gameObjects)
             {
-                if (gameObject.SpaceTimeLocationId == currentSpaceTimeLocation)
+                if (gameObject.SpaceTimeLocationID == currentSpaceTimeLocation)
                 {
                     gameObjectIds.Add(gameObject.Id);
                 }
@@ -429,7 +429,7 @@ namespace TechnocracyProject
             //
             foreach (GameObject gameObject in _gameObjects)
             {
-                if (gameObject.SpaceTimeLocationId == spaceTimeLocationId && gameObject is TravelerObject)
+                if (gameObject.SpaceTimeLocationID == spaceTimeLocationId && gameObject is TravelerObject)
                 {
                     travelerObjects.Add(gameObject as TravelerObject);
                 }
@@ -452,7 +452,7 @@ namespace TechnocracyProject
             //
             foreach (GameObject gameObject in _gameObjects)
             {
-                if (gameObject.SpaceTimeLocationId == currentSpaceTimeLocation && gameObject is TravelerObject)
+                if (gameObject.SpaceTimeLocationID == currentSpaceTimeLocation && gameObject is TravelerObject)
                 {
                     travelerObjectIds.Add(gameObject.Id);
                 }

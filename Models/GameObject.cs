@@ -11,6 +11,6 @@ namespace TechnocracyProject
         public abstract int Id { get; set; }
         public abstract string Name { get; set; }
         public abstract string Description { get; set; }
-        public abstract int SpaceTimeLocationId { get; set; }
+        public abstract int SpaceTimeLocationID { get; set; }
     }
 }

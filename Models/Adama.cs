@@ -136,7 +136,7 @@ namespace TechnocracyProject
             set { _weapon = value; }
         }
 
-        public int SpaceTimeLocationId
+        public int SpaceTimeLocationID
         {
             get { return _spaceTimeLocationId; }
             set { _spaceTimeLocationId = value; }

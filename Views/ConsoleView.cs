@@ -560,7 +560,7 @@ namespace TechnocracyProject
             //
             // get list of NPCs in current space-time location
             //
-            List<Npc> npcsInCurrentSpaceTimeLocation = _gameUniverse.GetNpcsBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationId);
+            List<Npc> npcsInCurrentSpaceTimeLocation = _gameUniverse.GetNpcsBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationID);
 
             string messageBoxText = Text.LookAround(currentSpaceTimeLocation) + Environment.NewLine + Environment.NewLine;
             messageBoxText += Text.GameObjectsChooseList(gameObjectsInCurrentSpaceTimeLocation) + Environment.NewLine;
@@ -629,7 +629,7 @@ namespace TechnocracyProject
             //
             // get a list of NPCs in the current space-time location
             //
-            List<Npc> npcsInSpaceTimeLocation = _gameUniverse.GetNpcsBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationId);
+            List<Npc> npcsInSpaceTimeLocation = _gameUniverse.GetNpcsBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationID);
 
             if (npcsInSpaceTimeLocation.Count > 0)
             {
@@ -645,7 +645,7 @@ namespace TechnocracyProject
                     //
                     // validate integer as a valid NPC id and in current location
                     //
-                    if (_gameUniverse.IsValidNpcByLocationId(npcId, _gameTraveler.SpaceTimeLocationId))
+                    if (_gameUniverse.IsValidNpcByLocationId(npcId, _gameTraveler.SpaceTimeLocationID))
                     {
                         Npc npc = _gameUniverse.GetNpcById(npcId);
                         if (npc is ISpeak)
@@ -685,7 +685,7 @@ namespace TechnocracyProject
             //
             // get a list of game objects in the current space-time location
             //
-            List<GameObject> gameObjectsInSpaceTimeLocation = _gameUniverse.GetGameObjectsBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationId);
+            List<GameObject> gameObjectsInSpaceTimeLocation = _gameUniverse.GetGameObjectsBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationID);
 
             if (gameObjectsInSpaceTimeLocation.Count > 0)
             {
@@ -701,7 +701,7 @@ namespace TechnocracyProject
                     //
                     // validate integer as a valid game object id and in current location
                     //
-                    if (_gameUniverse.IsValidGameObjectByLocationId(gameObjectId, _gameTraveler.SpaceTimeLocationId))
+                    if (_gameUniverse.IsValidGameObjectByLocationId(gameObjectId, _gameTraveler.SpaceTimeLocationID))
                     {
                         validGamerObjectId = true;
                     }
@@ -732,7 +732,7 @@ namespace TechnocracyProject
             //
             // get a list of traveler objects in the current space-time location
             //
-            List<TravelerObject> travelerObjectsInSpaceTimeLocation = _gameUniverse.GetTravelerObjectsBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationId);
+            List<TravelerObject> travelerObjectsInSpaceTimeLocation = _gameUniverse.GetTravelerObjectsBySpaceTimeLocationId(_gameTraveler.SpaceTimeLocationID);
 
             if (travelerObjectsInSpaceTimeLocation.Count > 0)
             {
@@ -748,7 +748,7 @@ namespace TechnocracyProject
                     //
                     // validate integer as a valid game object id and in current location
                     //
-                    if (_gameUniverse.IsValidTravelerObjectByLocationId(gameObjectId, _gameTraveler.SpaceTimeLocationId))
+                    if (_gameUniverse.IsValidTravelerObjectByLocationId(gameObjectId, _gameTraveler.SpaceTimeLocationID))
                     {
                         TravelerObject travelerObject = _gameUniverse.GetGameObjectById(gameObjectId) as TravelerObject;
                         if (travelerObject.CanInventory)

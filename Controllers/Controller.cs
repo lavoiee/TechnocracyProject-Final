@@ -338,7 +338,7 @@ namespace TechnocracyProject
                 // note: traveler object is added to list and the space-time location is set to 0
                 //
                 _sar.Inventory.Add(travelerObject);
-                travelerObject.SpaceTimeLocationId = 0;
+                travelerObject.SpaceTimeLocationID = 0;
 
                 //
                 // display confirmation message
@@ -366,7 +366,7 @@ namespace TechnocracyProject
             // remove the object from inventory and set the space-time location to the current value
             //
             _sar.Inventory.Remove(travelerObject);
-            travelerObject.SpaceTimeLocationId = _sar.SpaceTimeLocationId;
+            travelerObject.SpaceTimeLocationID = _sar.SpaceTimeLocationID;
 
             //
             // display confirmation message

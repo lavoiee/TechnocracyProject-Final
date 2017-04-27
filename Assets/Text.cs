@@ -413,7 +413,7 @@ namespace TechnocracyProject
                 gameObjectRows +=
                     $"{gameObject.Id}".PadRight(10) +
                     $"{gameObject.Name}".PadRight(30) +
-                    $"{gameObject.SpaceTimeLocationId}".PadRight(10) +
+                    $"{gameObject.SpaceTimeLocationID}".PadRight(10) +
                     Environment.NewLine;
             }
             messageBoxText += gameObjectRows;

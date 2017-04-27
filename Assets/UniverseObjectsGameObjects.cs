@@ -14,7 +14,7 @@ namespace TechnocracyProject.Assets
             {
                 Id = 1,
                 Name = "IR-4 Rifle.",
-                SpaceTimeLocationId = 2,
+                SpaceTimeLocationID = 2,
                 Description = "Standard Imperial Issue phaser rifle.",
                 Type = TravelerObjectType.Weapon,
                 Value = 45,
@@ -27,7 +27,7 @@ namespace TechnocracyProject.Assets
             {
                 Id = 2,
                 Name = "I-Com Radio",
-                SpaceTimeLocationId = 3,
+                SpaceTimeLocationID = 3,
                 Description = "Standard Imperial communication device.",
                 Type = TravelerObjectType.Electronics,
                 Value = 45,
@@ -40,7 +40,7 @@ namespace TechnocracyProject.Assets
             {
                 Id = 3,
                 Name = "CG-3 Canister",
-                SpaceTimeLocationId = 3,
+                SpaceTimeLocationID = 3,
                 Description = "Gaseous chemical weapon's canister.",
                 Type = TravelerObjectType.Weapon,
                 Value = 45,
@@ -53,7 +53,7 @@ namespace TechnocracyProject.Assets
             {
                 Id = 4,
                 Name = "Imperial Identification",
-                SpaceTimeLocationId = 2,
+                SpaceTimeLocationID = 2,
                 Description = 
                     "Name: Agent X" + "\n" +
                     "Security Clearance: Cosmic" + "\n" +
@@ -70,7 +70,7 @@ namespace TechnocracyProject.Assets
             {
                 Id = 8,
                 Name = "Cyanide Capsule",
-                SpaceTimeLocationId = 0,
+                SpaceTimeLocationID = 0,
                 Description =
                     "Capsule of Last Resort.",
                 Type = TravelerObjectType.Medicine,
@@ -84,7 +84,7 @@ namespace TechnocracyProject.Assets
             {
                 Id = 9,
                 Name = "IX-42 Anti-matter charge.",
-                SpaceTimeLocationId = 0,
+                SpaceTimeLocationID = 0,
                 Description =
                     "Planetary demolition charge.",
                 Type = TravelerObjectType.Weapon,
@@ -98,7 +98,7 @@ namespace TechnocracyProject.Assets
             {
                 Id = 10,
                 Name = "I-Com Encryption Device",
-                SpaceTimeLocationId = 0,
+                SpaceTimeLocationID = 0,
                 Description =
                     "Quantum encryption plugin for I-Com Radio.",
                 Type = TravelerObjectType.Food,
