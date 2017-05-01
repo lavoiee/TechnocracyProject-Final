@@ -55,6 +55,7 @@ namespace TechnocracyProject
             _gameUniverse = new Universe();
             _gameConsoleView = new ConsoleView(_sar, _gameUniverse);
             _playingGame = true;
+            
 
             //
             // add initial items to the traveler's inventory

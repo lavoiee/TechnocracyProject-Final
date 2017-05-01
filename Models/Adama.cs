@@ -44,14 +44,14 @@ namespace TechnocracyProject
         #endregion
 
         #region FIELDS
-        // TODO: Planet, Galaxy, and Dimension do not show up in Adama info menu 
+         
         private Planet _homeWorld;
         private Galaxy _homeGalaxy;
         private Dimension _homeDimension;
-        private int _rank = 1; //TODO: implement. Just issue default rank.
-        private string _rankPrefix = "X"; //TODO: implement a rank string to prefix to the numerical rank.
+        private int _rank = 1;
+        private string _rankPrefix = "X"; 
         private bool _discharged;
-        private TimeSpan _missionTime; //TODO: Implement Adama._missionTime.
+        private TimeSpan _missionTime; 
         private WeaponType _weapon;
         private int _experiencePoints;
         private int _health;
